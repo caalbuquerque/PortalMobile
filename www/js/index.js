@@ -46,7 +46,7 @@ var app = {
 
         console.log('Received Event: ' + id);*/
 		document.addEventListener('deviceready', function() {
-			var url = 'http://10.1.1.41/stportalmobile/'
+			var url = 'https://cordova.apache.org/'
 			cordova.InAppBrowser.open(url, '_self', 'location=no');
 		}, false);
     }
